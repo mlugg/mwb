@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "LDFLAGS += $(pkg-config --libs gtkmm-3.0)" >> config.mk
+echo "CXXFLAGS += $(pkg-config --cflags gtkmm-3.0)" >> config.mk
+
+echo "LDFLAGS += $(pkg-config --libs webkit2gtk-4.0)" >> config.mk
+echo "CXXFLAGS += $(pkg-config --cflags webkit2gtk-4.0)" >> config.mk

@@ -1,0 +1,12 @@
+window {
+  color: #eeeeee;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:hover {
+  background: black;
+}

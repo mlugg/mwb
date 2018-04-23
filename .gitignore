@@ -1,0 +1,4 @@
+mwb
+*.o
+config.mk
+*.swp
